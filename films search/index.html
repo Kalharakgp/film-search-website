@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Film Search</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>🎬 Film Finder</h1>
+    <p>Discover movies and explore IMDb ratings instantly</p>
+  </header>
+
+  <main class="container">
+    <div class="search-box">
+      <input type="text" id="movieInput" placeholder="🔍 Search for a movie...">
+      <button onclick="searchMovie()">Search</button>
+    </div>
+    <div id="result" class="result"></div>
+  </main>
+
+  <footer>
+    <p>Powered by <a href="https://www.omdbapi.com/" target="_blank">OMDb API</a></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
