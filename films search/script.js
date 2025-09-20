@@ -7,7 +7,7 @@ async function searchMovie() {
     return;
   }
 
-  const apiKey = "14c9a340"; // Replace with your OMDb API key
+  const apiKey = "#"; // Replace with your OMDb API key
   const url = `https://www.omdbapi.com/?t=${encodeURIComponent(movieName)}&plot=full&apikey=${apiKey}`;
 
   try {
